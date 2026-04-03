@@ -1,96 +1,37 @@
-# Hikkaduwa Turtle Hatchery Website
+# Turtle Hatchery Website
 
-This project is a static multi-page website created for a turtle hatchery and ticket booking experience. It combines informational content about the Hikkaduwa Turtle Hatchery with a client-side ticket reservation flow built using HTML, CSS, and JavaScript.
+## Description
+This project is a website dedicated to turtle hatcheries in Sri Lanka. It provides information about various turtle hatcheries, turtle categories, threats to turtles, and options for purchasing and donating.
 
-## Project Overview
-
-The website includes:
-
-- An informational page about the Hikkaduwa Turtle Hatchery
-- A ticket booking page with date, guest, and duration selection
-- A details page to collect customer information
-- A payment page with basic front-end validation
-- A confirmation page that displays the final booking summary
-
-The booking flow uses `localStorage` to pass user selections and form data between pages.
+## Pages
+- **Home Page**: Main landing page
+- **About Us**: Information about the organization
+- **Contact Us**: Contact details
+- **Turtle Categories**: Details on different turtle species
+- **Threats to Turtles**: Information on threats facing turtles
+- **Bentota Turtle Hatchery**: Specific page for Bentota location
+- **Hikkaduwa Turtle Hatchery**: Specific page for Hikkaduwa location
+- **Kosgoda Turtle Hatchery**: Specific page for Kosgoda location
+- **Purchase and Donate Page**: Options for donations and purchases
 
 ## Technologies Used
-
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
-- `flatpickr` for date selection
-- `intl-tel-input` for phone number input styling
-- `localStorage` for temporary client-side data storage
+- Java (for backend components)
 
-## Project Files
-
-Main files included in this repository:
-
-- `Hikkaduwa Turtle Hatchery.html`
-- `Hikkaduwa Turtle Hatchery.css`
-- `TicketsPage.html`
-- `TicketsPage.css`
-- `TicketsPage.js`
-- `DetailsPage.html`
-- `DeatilsPage.css`
-- `DetailsPage.js`
-- `PaymentPage.html`
-- `PaymentPage.css`
-- `PaymentPage.js`
-- `ConfirmationPage.html`
-- `ConfirmationPage.css`
-- `ConfirmationPage.js`
-
-## Booking Flow
-
-1. `TicketsPage.html`
-   Users choose the visit date, guest categories, and time slots.
-
-2. `DetailsPage.html`
-   Users enter their full name, mobile number, and email address.
-
-3. `PaymentPage.html`
-   Users enter card details with front-end validation.
-
-4. `ConfirmationPage.html`
-   The system displays the final booking summary using saved `localStorage` data.
+## Files Structure
+- HTML files: Main content pages
+- CSS files: Styling for each page
+- JS files: Client-side scripting
+- Java files: Server-side logic (First.java, Ttg.java)
 
 ## How to Run
-
-Because this is a static front-end project, you can run it in either of these ways:
-
-1. Open `Hikkaduwa Turtle Hatchery.html` directly in a browser.
-2. Or use a local server such as VS Code Live Server for a smoother development experience.
-
-Recommended entry page:
-
-- `Hikkaduwa Turtle Hatchery.html`
-
-## Features
-
-- Multi-page website structure
-- Responsive navigation menu
-- Informational tourism-style landing page
-- Ticket price calculation based on guest type and peak hours
-- Booking summary panel across all booking steps
-- Form validation for contact and payment details
-- Confirmation page with stored booking details
-
-## Notes
-
-- This repository currently contains the hatchery and booking-related pages.
-- Some navigation links inside the HTML point to other pages such as `Home Page.html`, `Turtle Categories.html`, and `Threats To Turtles.html`, but those files are not present in this repository.
-- All validation and payment handling are front-end only. There is no backend or real payment gateway integration.
-
-## Future Improvements
-
-- Add the missing linked pages to complete the full website
-- Connect the booking flow to a backend database
-- Replace mock payment validation with a real payment integration
-- Improve accessibility and form validation messages
-- Refactor repeated layout sections into reusable components if migrated to a framework
+1. Open the `Home Page.html` file in a web browser to start the website.
+2. Ensure all associated CSS and JS files are in the same directory.
 
 ## Author
+[Your Name]
 
-This project appears to be an academic web development assignment focused on front-end design, interaction, and form handling.
+## License
+[Specify License if any]
